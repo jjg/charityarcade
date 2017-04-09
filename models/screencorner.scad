@@ -16,7 +16,7 @@ difference(){
 	// screw holes
 	translate([15,5,-1]){
 		// thread
-		#cylinder(r-2,h=40);
+		cylinder(r=2,h=40);
 
 		translate([0,0,8]){
 			// head
@@ -26,7 +26,7 @@ difference(){
 
 	translate([35,5,-1]){
 		// thread
-		#cylinder(r-2,h=40);
+		cylinder(r=2,h=40);
 
 		translate([0,0,8]){
 			// head
@@ -36,7 +36,7 @@ difference(){
 
 	translate([35,25,-1]){
 		// thread
-		#cylinder(r-2,h=40);
+		cylinder(r=2,h=40);
 
 		translate([0,0,8]){
 			// head
